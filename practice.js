@@ -42,3 +42,10 @@ function areYouPlayingBanjo(name) {
     ? name + ' plays banjo'
     : name + ' does not play banjo';
 }
+
+//Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}
