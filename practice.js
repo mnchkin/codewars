@@ -17,3 +17,14 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 function updateLight(current) {
   return current == 'green' ? 'yellow' : current == 'yellow' ? 'red' : 'green';
 }
+
+//Reversed sequence
+function reverseSeq(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = reverseSeq(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
+}
