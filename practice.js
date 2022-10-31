@@ -59,3 +59,8 @@ const areaOrPerimeter = function (l, w) {
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+//Task 11. Is he gonna survive?
+function hero(bullets, dragons) {
+  return bullets / 2 >= dragons ? true : false;
+}
