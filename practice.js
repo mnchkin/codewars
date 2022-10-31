@@ -1,24 +1,24 @@
-//Return Negative
+//Task 1. Return Negative
 function makeNegative(num) {
   return num > 0 ? -num : num;
 }
 
-//Even or Odd
+//Task 2. Even or Odd
 function evenOrOdd(number) {
   return number % 2 ? 'Odd' : 'Even';
 }
 
-//Will you make it?
+//Task 3. Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   return mpg * fuelLeft >= distanceToPump ? true : false;
 };
 
-//Thinkful - Logic Drills: Traffic light
+//Task 4. Thinkful - Logic Drills: Traffic light
 function updateLight(current) {
   return current == 'green' ? 'yellow' : current == 'yellow' ? 'red' : 'green';
 }
 
-//Reversed sequence
+//Task 5. Reversed sequence
 function reverseSeq(n) {
   if (n < 1) {
     return [];
@@ -29,28 +29,33 @@ function reverseSeq(n) {
   }
 }
 
-//The Feast of Many Beasts
+//Task 6. The Feast of Many Beasts
 function feast(beast, dish) {
   return beast[0] == dish[0] && beast[beast.length - 1] == dish[dish.length - 1]
     ? true
     : false;
 }
 
-//Are You Playing Banjo?
+//Task 7. Are You Playing Banjo?
 function areYouPlayingBanjo(name) {
   return name[0] == 'R' || name[0] == 'r'
     ? name + ' plays banjo'
     : name + ' does not play banjo';
 }
 
-//Volume of a Cuboid
+//Task 8. Volume of a Cuboid
 class Kata {
   static getVolumeOfCuboid(length, width, height) {
     return length * width * height;
   }
 }
 
-//Area or Perimeter
+//Task 9. Area or Perimeter
 const areaOrPerimeter = function (l, w) {
   return l === w ? l * w : 2 * (l + w);
 };
+
+//Task 10. Keep Hydrated!
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
