@@ -77,3 +77,8 @@ function basicOp(operation, value1, value2) {
     return value1 / value2;
   }
 }
+
+//Task 13. Function 1 - hello world
+function greet() {
+  return 'hello world!';
+}
